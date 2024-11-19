@@ -1,0 +1,219 @@
+body{
+    background-color: rgb(160, 189, 189);
+}
+.mainwrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: aqua;
+    width: 100%;
+    height: 110px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.header{
+    position: relative;
+    left: 250px;
+    background-color: aqua;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+.input{
+    position: relative;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.frame{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+    right: 10px;
+    bottom: 12px;
+}
+input{
+    width: 300px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: "Sour Gummy", sans-serif;
+}
+.muscle{
+    width: 120px;
+    height: 80x;
+    position: relative;
+    bottom: 100px;
+    left: 70px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+a.home{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    background-color: aqua;
+    width: 180px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a.home:hover{
+    font-size: 32px;
+    background-color: rgb(47, 161, 161);
+}
+.nav{
+    display: flex;
+    margin-right: 60px;
+}
+h1{
+    background-color: aqua;
+    height: 32px;
+}
+h1::first-letter{
+    color: red;
+    font-size: 40px;
+}
+p.heading{
+    background-color: aqua;
+}
+.slider{
+    position: relative;
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+}
+figure{
+    position: relative;
+    left: 0;
+    width: 200%;
+    animation: 15s slide infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.slide img{
+    width: 1300px;
+    height: 600px;
+    
+}
+.slide{
+    align-items: center;
+    text-align: center;
+}
+@keyframes slide{
+    0%{
+        left: 20%;
+    }
+    15%{
+        left: -50%;
+    }
+    25%{
+        left: -50%;
+    }
+    40%{
+        left: -120%;
+    }
+    50%{
+        left: -120%;
+    }
+    65%{
+        left: -50%;
+    }
+    75%{
+        left: -50%;
+    }
+    90%{
+        left: 20%;
+    }
+    100%{
+        left: 20%;
+    }
+}
+h2{
+    font-family: "Playfair Display", sans-serif;
+}
+.item1{grid-area: splits;}
+.item2{grid-area: monday;}
+.item3{grid-area: chest;}
+.item4{grid-area: wednesday;}
+.item5{grid-area: back;}
+.item6{grid-area: thursday;}
+.item7{grid-area: biceps;}
+.item8{grid-area: saturday;}
+.item9{grid-area: arms;}
+.item10{grid-area: sunday;}
+.item11{grid-area: legs;}
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+    'splits splits splits'
+    'monday monday chest'
+    'wednesday wednesday back'
+    'thursday thursday biceps'
+    'saturday saturday arms'
+    'sunday sunday legs';
+    position: absolute;
+    top: 120%;
+    left: 10%;
+    gap: 10px;
+    background-color: blue;
+    padding: 10px;
+}
+.grid-container div{
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+.container-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+div.p{
+    color: white;
+    font-family: sans-serif;
+    font-size: 35px;
+    position: absolute;
+    top: 130%;
+    right: 3%;
+}
+.p::first-letter{
+    font-size: 60px;
+    color: blue;
+}
+.p:first-child{
+    color: aquamarine;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-top: 50%;
+    width: 100%;
+    height: 350px;
+    background-image: url(/images/footerimage.webp);
+}
+.footerp{
+    color: white;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a.last{
+    text-decoration: none;
+    color: rgb(28, 155, 134);
+    font-size: 20px;
+    font-weight: bolder;
+}
+a.last:hover{
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    font-size: 22px;
+    background-color: black;
+}
