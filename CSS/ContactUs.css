@@ -1,0 +1,94 @@
+body{
+    background-color: rgb(160, 189, 189);
+}
+.mainwrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: aqua;
+    width: 100%;
+    height: 110px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.header{
+    position: relative;
+    left: 250px;
+    background-color: aqua;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+.input{
+    position: relative;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.frame{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+    right: 10px;
+    bottom: 12px;
+}
+input{
+    width: 300px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: "Sour Gummy", sans-serif;
+}
+.muscle{
+    width: 120px;
+    height: 80x;
+    position: relative;
+    bottom: 100px;
+    left: 70px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+a.home{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    background-color: aqua;
+    width: 180px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a.home:hover{
+    font-size: 32px;
+    background-color: rgb(47, 161, 161);
+}
+a.contact{
+    text-decoration: none;
+    color: black;
+    font-size: 32px;
+    background-color: rgb(47, 161, 161);
+    width: 180px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav{
+    display: flex;
+    margin-right: 60px;
+}
+h1{
+    background-color: aqua;
+    height: 32px;
+}
+h1::first-letter{
+    color: red;
+    font-size: 40px;
+}
+p.heading{
+    background-color: aqua;
+}
